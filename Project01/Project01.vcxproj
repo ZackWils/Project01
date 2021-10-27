@@ -139,13 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DoubleLinkedList.h" />
-    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="PatientQueue.hpp" />
+    <ClInclude Include="Node.hpp" />
+    <ClInclude Include="Patient.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DoubleLinkedList.cpp" />
+    <ClCompile Include="PatientQueue.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="PriorityQueue.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Patient.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
