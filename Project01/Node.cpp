@@ -16,5 +16,8 @@ Node::Node(Patient p, unsigned int priority)
 
 Node::~Node()
 {
-	delete(this);
+	if (this->next) {
+		delete this->next;
+		this->next = nullptr;
+	}
 }

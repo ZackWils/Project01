@@ -1,12 +1,6 @@
 #pragma once
 #include <string>
 #include "Patient.hpp"
-//DECLARE CLASS Node
-//DECLARE STRING data
-//DECLARE Node pointer next
-//DECLARE constructor
-//DECLARE virtual destructor
-//ENDDECLARE
 
 class Node
 {
